@@ -1,0 +1,151 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*
+#navigation {
+  background-color: transparent !important;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+#navigation.scrolled {
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+*/
+
+.hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.page-heading {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-bottom:30px;
+}
+
+.page-heading h1 {
+  color: #fff;
+  font-weight: 200;
+  margin-top:250px;
+}
+
+section {
+  position: relative;
+}
+section.padded {
+  padding: 32px 0;
+}
+
+section h2, section h3, .card .card-title {
+    font-weight: 200;
+}
+
+.overlay {
+  position: absolute;
+  top:0; left: 0; bottom: 0; right: 0;
+  background: black;
+  opacity:0.5;
+  transition: opacity .6s;
+}
+.overlay_content {
+  position: absolute;
+  top:0; left: 0; bottom: 0; right: 0;
+}
+a:hover .overlay {
+  opacity:0;
+}
+
+.videoWrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+padding-top: 25px;
+height: 0;
+}
+.videoWrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+#review {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.4em;
+  background: #689fb9 url(/static/backgrounds/quote.jpg) no-repeat;
+  background-size: 100px;
+  background-position-x: 16px;
+  color: #fff
+}
+#review a {
+  color: #13384a;
+}
+#listen {
+  background: #FFF5E4;
+    min-height: 500px;
+}
+#social{
+  background: #222;
+  text-align: center;
+  padding: 32px 0;
+}
+#social a {
+  text-indent: -1000000px;
+  overflow: hidden;
+  text-align: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 61px;
+  margin-bottom: 1em;
+  padding: 0 0.5em;
+  vertical-align: top;
+  width: 61px;
+  margin:0 16px;
+}
+#social a.twitter {background-size: contain; background-image: url(/static/icons/twitter.svg); }
+#social a.twitter:hover { background-image: url(/static/icons/twitter_over.svg); }
+#social a.facebook {background-size: contain; background-image: url(/static/icons/facebook.svg); }
+#social a.facebook:hover { background-image: url(/static/icons/facebook_over.svg); }
+#social a.youtube {background-size: contain; background-image: url(/static/icons/youtube.svg); }
+#social a.youtube:hover { background-image: url(/static/icons/youtube_over.svg); }
+
+.cc-list-group .list-group-item.active {
+  background-color: #850E35;
+}
+
+.mailinglist {
+  background: #850E35;
+  color: white;
+}
+.mailinglist p {
+    margin-bottom:0;
+}
+
+footer {
+  padding: 32px 0px;
+}
+
+footer p { text-align: right;}
+footer a.twitter {background-size: contain; background-image: url(/static/icons/twitter_icon_only.svg);  }
+footer a.facebook {background-size: contain; background-image: url(/static/icons/facebook_icon_only.svg); }
+footer a.youtube {background-size: contain; background-image: url(/static/icons/youtube_icon_only.svg); }
+footer a.social {
+  
+    text-indent: -1000000px;
+    overflow: hidden;
+    text-align: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding: 0 0.5em;
+    vertical-align: top;
+    margin:0;
+    height: 30px;
+    width: 30px;
+}
