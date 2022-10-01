@@ -16,7 +16,9 @@ export default () => {
   return (
     <Container>
       <Row>
-        <Col></Col>
+        <Col>
+          <p>Not sure what to put in here. Do we have a CD we can sell?</p>
+        </Col>
         <Col>
           <h2>Listen to us</h2>
           <p className="lead">Listen to some live recordings at previous concerts</p>

@@ -24,7 +24,7 @@ export default () => (
     <section id="concerts" className="padded">
       <Container>
         <Row>
-          <Col md={8}>
+          <Col lg={8} sm={12}>
             <div className="videoWrapper">
               <iframe
                 width="560"
@@ -36,7 +36,7 @@ export default () => (
               ></iframe>
             </div>
           </Col>
-          <Col md={4}>
+          <Col lg={4} sm={12}>
             <h2>Upcoming Concerts</h2>
             <Card className="shadow-lg">
               <Card.Body>

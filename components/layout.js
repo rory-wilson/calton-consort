@@ -14,18 +14,16 @@ export default ({ title, heading, children }) => {
     <Head>
       <title>{pageTitle}</title>
     </Head>
-    <Navbar bg="dark" variant="dark" expand="md" id="navigation">
+    <Navbar bg="dark" variant="dark" expand="lg" id="navigation">
       <Container>
         <Navbar.Brand href="/">
-          <Image src="/static/img/logo_white.png" />
+          <Image src="/static/img/logo_white.png" fluid />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav>
-            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/concerts">Past concerts</Nav.Link>
             <Nav.Link href="/about">Meet us</Nav.Link>
-            <Nav.Link href="/contact">Sing with us</Nav.Link>
             <Nav.Link href="/contact">Get in touch</Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -57,7 +55,6 @@ export default ({ title, heading, children }) => {
         <Row>
           <Col>
             <h2>Supported by</h2>
-
             <img src="/static/img/making_music_new.png" height="100" />
           </Col>
           <Col>
