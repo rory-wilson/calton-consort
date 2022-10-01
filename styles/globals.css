@@ -76,13 +76,16 @@ height: 100%;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.4em;
-  background: #689fb9 url(/static/backgrounds/quote.jpg) no-repeat;
-  background-size: 100px;
-  background-position-x: 16px;
+  background: #689fb9;
   color: #fff
 }
 #review a {
   color: #13384a;
+}
+#review .row {
+  background: #689fb9 url(/static/backgrounds/quote.jpg) no-repeat;
+  background-size: 100px;
+  background-position-x: 16px;
 }
 #listen {
   background: #FFF5E4;
