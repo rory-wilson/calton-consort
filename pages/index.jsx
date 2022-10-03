@@ -17,7 +17,7 @@ export default () => (
           Ein deutsches Requiem
         </h1>
         <p className="visually-hidden">
-          Saturday 12th November 2022, 7.45pm St Cutherbert's Church
+          Saturday 12th November 2022, 7.45pm St Cuthbert's Church
         </p>
       </div>
     </section>
@@ -45,7 +45,7 @@ export default () => (
                 </Card.Title>
                 <Card.Subtitle className="fs-5 mb-3">
                   Saturday 12th November 2022, 7.45pm <br />
-                  St Cutherbert's Church Lothian Road Edinburgh
+                  St Cuthbert's Church Lothian Road Edinburgh
                 </Card.Subtitle>
                 <Card.Text className="fs-6">
                   In Collaboration with Scottish Chamber Choir and Meadows
@@ -55,7 +55,7 @@ export default () => (
                   Conducted By Peter Evans.
                 </Card.Text>
                 <Card.Link href="https://www.ticketsource.co.uk/whats-on?q=scottish%20Chamber%20choir">
-                  By tickets at Ticket Source
+                  Buy tickets at Ticket Source
                 </Card.Link>
               </Card.Body>
             </Card>
@@ -71,7 +71,7 @@ export default () => (
         <Row>
           <Col sm={{ span: 10, offset: 1 }}>
             <blockquote>
-              "The 'go-to choir' for challenging and engaging music"{" "}
+              "The 'go-to choir' for challenging and engaging music"
             </blockquote>
             <p>BachTrack.com</p>
           </Col>

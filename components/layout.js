@@ -22,6 +22,7 @@ export default ({ title, heading, children }) => {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/concerts">Past concerts</Nav.Link>
             <Nav.Link href="/about">Meet us</Nav.Link>
             <Nav.Link href="/contact">Get in touch</Nav.Link>
