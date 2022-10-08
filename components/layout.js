@@ -14,7 +14,7 @@ export default ({ title, heading, children }) => {
     <Head>
       <title>{pageTitle}</title>
     </Head>
-    <Navbar bg="dark" variant="dark" expand="lg" id="navigation">
+    <Navbar bg="dark" variant="dark" expand="lg" id="navigation" fixed="top">
       <Container>
         <Navbar.Brand href="/">
           <Image src="/static/img/logo_white.png" fluid />

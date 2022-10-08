@@ -9,16 +9,17 @@ export default () => (
   <Layout title="Home">
     <section
       id="top"
-      className="hero"
-      style={{ backgroundImage: "url(/static/backgrounds/brahms.jpg)", backgroundPositionY: '-50px' }}
+      className="hero position-relative"
+      style={{ backgroundImage: "url(/static/backgrounds/dec-22.jpg)",}}
     >
-      <div className="text-left">
-        <h1 className="display-5 fw-bold visually-hidden">
-          Ein deutsches Requiem
+      <div className="text-left position-absolute top-50 hero-copy">
+        <h1 className="display-5">
+          <Container><Row><Col>venite gaudete</Col></Row></Container>
         </h1>
-        <p className="visually-hidden">
-          Saturday 12th November 2022, 7.45pm St Cuthbert's Church
-        </p>
+       
+        <Container><Row><Col> <p className="lead">Saturday 3rd December 2022<br/>7.30pm Cannongate Kirk</p></Col></Row></Container>
+          
+
       </div>
     </section>
     <section id="concerts" className="padded">
