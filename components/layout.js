@@ -25,6 +25,7 @@ export default ({ title, heading, children }) => {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/concerts">Past concerts</Nav.Link>
             <Nav.Link href="/about">Meet us</Nav.Link>
+            <Nav.Link href="/hire">Music hire</Nav.Link>
             <Nav.Link href="/contact">Get in touch</Nav.Link>
           </Nav>
         </Navbar.Collapse>

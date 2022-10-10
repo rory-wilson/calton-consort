@@ -11,7 +11,7 @@ export default () => (
           <section className="padded">
             <p>
               If you are interesting in singing with Calton Consort, buying
-              tickets for our next concert, buying our CD, or would like to
+              tickets for our next concert, borrowing some music, or would like to
               contact us for any other reason, please email{" "}
               <a href="mailto:caltonconsort@gmail.com">
                 caltonconsort@gmail.com
