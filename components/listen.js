@@ -16,7 +16,7 @@ export default () => {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col lg={6}>
          
         </Col>
         <Col>
@@ -25,6 +25,9 @@ export default () => {
           <ListGroup variant="flush" className="cc-list-group mb-3">
             <ListGroup.Item action onClick={() => play('/static/mp3/Arvo Part - Nunc Dimittis.mp3')}>Avro Pärt - Nunc Dimittis</ListGroup.Item>
             <ListGroup.Item action onClick={() => play('/static/mp3/John Tavener - Funeral Ikos.mp3')}>John Tavener - Funeral Ikos</ListGroup.Item>
+            <ListGroup.Item action onClick={() => play('/static/mp3/Henryk Gorecki - Totus Tuus.mp3')}>Henryk Górecki - Totus Tuus</ListGroup.Item>
+            <ListGroup.Item action onClick={() => play('/static/mp3/Eriks Esenvalds - Stars.mp3')}>Ēriks Ešenvalds - Stars</ListGroup.Item>
+            
           </ListGroup>
 
           {nowPlaying && <ReactAudioPlayer style={{ width: '100%'}}
