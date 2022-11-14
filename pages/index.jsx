@@ -17,7 +17,7 @@ export default () => (
           <Container><Row><Col>venite gaudete</Col></Row></Container>
         </h1>
        
-        <Container><Row><Col> <p className="lead">Saturday 3rd December 2022<br/>7.30pm Cannongate Kirk</p></Col></Row></Container>
+        <Container><Row><Col> <p className="lead">Saturday 3rd December 2022<br/>7.30pm Canongate Kirk</p></Col></Row></Container>
           
 
       </div>
@@ -30,7 +30,7 @@ export default () => (
               <iframe
                 width="560"
                 height="349"
-                src="https://www.youtube.com/embed/hGhqstume4w"
+                src="https://www.youtube.com/embed/pAGe1XdN3Qo"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -42,22 +42,17 @@ export default () => (
             <Card className="shadow-lg">
               <Card.Body>
                 <Card.Title className="fs-2 mb-3">
-                  Brahms: Ein deutsches requiem
+                  Venite Gaudete
                 </Card.Title>
                 <Card.Subtitle className="fs-5 mb-3">
-                  Saturday 12th November 2022, 7.45pm <br />
-                  St Cuthbert's Church Lothian Road Edinburgh
+                  Saturday 3rd December 2022, 7.30pm <br />
+                 Canongate Kirk Royal Mile Edinburgh
                 </Card.Subtitle>
+                
                 <Card.Text className="fs-6">
-                  In Collaboration with Scottish Chamber Choir and Meadows
-                  Chamber Orchestra.
+                  Tickets £15 (£12 concessions) on the door. Under 18s free!
                 </Card.Text>
-                <Card.Text className="fs-6">
-                  Conducted By Peter Evans.
-                </Card.Text>
-                <Card.Link href="https://www.ticketsource.co.uk/whats-on?q=scottish%20Chamber%20choir">
-                  Buy tickets at Ticket Source
-                </Card.Link>
+               
               </Card.Body>
             </Card>
           </Col>
