@@ -34,6 +34,25 @@ export default () => (
           <section className="padded">
             <h2 id="2022">2022</h2>
             <div className="mb-3">
+              <h3>Venite Gaudete</h3>
+              <p>
+                Music by Peacock, Sandstrom, Tavener, Byrd and Whitacre Conducted by Rory
+                Wilson
+              </p>
+
+              <p>3 December 2022 Canongate Kirk, Edinburgh</p>
+            </div>
+
+            <div className="mb-3">
+              <h3>Brahms German Requiem</h3>
+              <p>
+                Collaboration with Scottish Chamber Choir and Meadows Orchestra Conducted by Peter Evans
+              </p>
+
+              <p>12 November 2022 St Cuthberts Church, Edinburgh</p>
+            </div>
+
+            <div className="mb-3">
               <h3>Songs of the Baltic Sea</h3>
               <p>
                 Music by Miškinis, Dubra, Ešenvalds, Gòrecki Conducted by Rory

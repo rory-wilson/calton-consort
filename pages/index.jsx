@@ -10,16 +10,18 @@ export default () => (
     <section
       id="top"
       className="hero position-relative"
-      style={{ backgroundImage: "url(/static/backgrounds/dec-22.jpg)",}}
+      style={{ backgroundImage: "url(/static/backgrounds/apr-23.jpg)",}}
     >
-      <div className="text-left position-absolute top-50 hero-copy">
+      <div className="text-right position-absolute hero-copy">
         <h1 className="display-5">
-          <Container><Row><Col>venite gaudete</Col></Row></Container>
+          <Container><Row><Col>holst and howells</Col></Row></Container>
         </h1>
-       
-        <Container><Row><Col> <p className="lead">Saturday 3rd December 2022<br/>7.30pm Canongate Kirk</p></Col></Row></Container>
-          
-
+        <Container><Row><Col> <p className="lead">Imogen Holst: Mass in A minor<br/> Howells: Requiem</p></Col></Row></Container>
+      </div>
+      <div className='image-credit'>
+      <Container><Row><Col>
+        <a className='link-light' href="https://www.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_11342065.htm#query=water%20nature&position=0&from_view=keyword">Image by wirestock</a> on Freepik
+      </Col></Row></Container>
       </div>
     </section>
     <section id="concerts" className="padded">
@@ -42,10 +44,10 @@ export default () => (
             <Card className="shadow-lg">
               <Card.Body>
                 <Card.Title className="fs-2 mb-3">
-                  Venite Gaudete
+                  holst and howells
                 </Card.Title>
                 <Card.Subtitle className="fs-5 mb-3">
-                  Saturday 3rd December 2022, 7.30pm <br />
+                  Saturday 1st April 2023, 7.30pm <br />
                  Canongate Kirk Royal Mile Edinburgh
                 </Card.Subtitle>
                 

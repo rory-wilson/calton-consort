@@ -20,21 +20,36 @@ html {
 .hero {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-y: 50%;
   height: 500px;
 }
 .hero .hero-copy {
   width: 100%;
-  background: black;
-  opacity:0.8;
+  background: transparent;
+  margin-top:200px;
 }
 
 .hero h1, .hero p {
   color: white;
+  text-align: right;;
 }
 
 .hero h1 {
   border-bottom: 1px solid white;
   font-family: 'Palatino', 'Times New Roman', 'serif';
+}
+
+.image-credit {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: #666;
+  color: white;
+  opacity: 0.7;
+}
+
+.image-credit a {
+  color: white;
 }
 
 .page-heading {
