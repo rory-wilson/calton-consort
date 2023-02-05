@@ -27,6 +27,7 @@ export default ({ title, heading, children }) => {
             <Nav.Link href="/about">Meet us</Nav.Link>
             <Nav.Link href="/hire">Music hire</Nav.Link>
             <Nav.Link href="/contact">Get in touch</Nav.Link>
+            <Nav.Link href="https://app.choirmanager.com/en">Choir Area</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
