@@ -20,7 +20,7 @@ html {
 .hero {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 50%;
+  background-position-y: 30%;
   height: 500px;
 }
 .hero .hero-copy {

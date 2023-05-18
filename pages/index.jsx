@@ -10,29 +10,24 @@ export default () => (
     <section
       id="top"
       className="hero position-relative"
-      style={{ backgroundImage: "url(/static/backgrounds/apr-23.jpg)",}}
+      style={{ backgroundImage: "url(/static/backgrounds/jun-23.png)",}}
     >
       <div className="text-right position-absolute hero-copy">
         <h1 className="display-5">
-          <Container><Row><Col>holst and howells</Col></Row></Container>
+          <Container><Row><Col>Sublime to Ridiculous</Col></Row></Container>
         </h1>
-        <Container><Row><Col> <p className="lead">Imogen Holst: Mass in A minor<br/> Howells: Requiem</p></Col></Row></Container>
-      </div>
-      <div className='image-credit'>
-      <Container><Row><Col>
-        <a className='link-light' href="https://www.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_11342065.htm#query=water%20nature&position=0&from_view=keyword">Image by wirestock</a> on Freepik
-      </Col></Row></Container>
+        <Container><Row><Col> <p className="lead">Featuring music by Thea Musgrave, Eric Whitacre, Jaakko Mäntyjärvi and others</p></Col></Row></Container>
       </div>
     </section>
     <section id="concerts" className="padded">
       <Container>
-        <Row>
+        <Row> 
           <Col lg={8} sm={12}>
             <div className="videoWrapper">
               <iframe
                 width="560"
                 height="349"
-                src="https://www.youtube.com/embed/Zfe5YVDU5WM"
+                src="https://www.youtube.com/embed/3ENQCuClUik"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -44,10 +39,10 @@ export default () => (
             <Card className="shadow-lg">
               <Card.Body>
                 <Card.Title className="fs-2 mb-3">
-                  holst and howells
+                  Sublime to Ridiculous
                 </Card.Title>
                 <Card.Subtitle className="fs-5 mb-3">
-                  Saturday 1st April 2023, 7.30pm <br />
+                  Saturday 10th June 2023, 7.30pm <br />
                  Canongate Kirk Royal Mile Edinburgh
                 </Card.Subtitle>
                 

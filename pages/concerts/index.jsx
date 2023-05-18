@@ -10,6 +10,9 @@ export default () => (
       <Row>
         <Col md={{ order: 'last' }}>
         <ListGroup variant="flush" className='cc-list-group'>
+        <ListGroup.Item action href="#2023">
+              2023
+            </ListGroup.Item>
             <ListGroup.Item action href="#2022">
               2022
             </ListGroup.Item>
@@ -32,6 +35,17 @@ export default () => (
         </Col>
         <Col md={9} sm={12}>
           <section className="padded">
+          <h2 id="2022">2023</h2>
+            <div className="mb-3">
+              <h3>holst & howells</h3>
+              <p>
+               Herbert Howells Take him earth for cherishing, Requiem and Salve Regina. Imogen Holst Mass in A Minor.
+              </p>
+
+              <p>1 April 2023 Canongate Kirk, Edinburgh</p>
+            </div>
+            </section>
+            <section className="padded">
             <h2 id="2022">2022</h2>
             <div className="mb-3">
               <h3>Venite Gaudete</h3>
