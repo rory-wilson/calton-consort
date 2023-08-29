@@ -1,22 +1,22 @@
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Card from "react-bootstrap/Card";
 import Layout from "../components/layout";
 import Listen from "../components/listen";
+import Upcoming from '../components/upcoming';
 
 export default () => (
   <Layout title="Home">
     <section
       id="top"
       className="hero position-relative"
-      style={{ backgroundImage: "url(/static/backgrounds/jun-23.png)",}}
+      style={{ backgroundImage: "url(/static/backgrounds/nov-23.png)",}}
     >
       <div className="text-right position-absolute hero-copy">
         <h1 className="display-5">
-          <Container><Row><Col>Sublime to Ridiculous</Col></Row></Container>
+          <Container><Row><Col>O Bone Jesu</Col></Row></Container>
         </h1>
-        <Container><Row><Col> <p className="lead">Featuring music by Thea Musgrave, Eric Whitacre, Jaakko Mäntyjärvi and others</p></Col></Row></Container>
+        <Container><Row><Col> <p className="lead">Featuring music by Robert Carver, Henry Purcell, James MacMillan and Caroline Shaw</p></Col></Row></Container>
       </div>
     </section>
     <section id="concerts" className="padded">
@@ -36,22 +36,14 @@ export default () => (
           </Col>
           <Col lg={4} sm={12}>
             <h2>Upcoming Concerts</h2>
-            <Card className="shadow-lg">
-              <Card.Body>
-                <Card.Title className="fs-2 mb-3">
-                  Sublime to Ridiculous
-                </Card.Title>
-                <Card.Subtitle className="fs-5 mb-3">
-                  Saturday 10th June 2023, 7.30pm <br />
-                 Canongate Kirk Royal Mile Edinburgh
-                </Card.Subtitle>
-                
-                <Card.Text className="fs-6">
-                  Tickets £15 (£12 concessions) on the door. Under 18s free!
-                </Card.Text>
-               
-              </Card.Body>
-            </Card>
+
+            <Upcoming title="O Bone Jesu" date="Sat 4th Nov 2023 7.30pm">
+              Based on the latin hymn, O Bone Jesu, with settings by Robert Carver and James MacMillan.
+            </Upcoming>
+
+            <Upcoming title="A Boy Was Born" date="Sat 9th Dec 2023 7.30pm">
+              A festive programme of music based around Benjamin Britten’s A Boy Was Born..
+            </Upcoming>
           </Col>
         </Row>
       </Container>

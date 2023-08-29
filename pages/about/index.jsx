@@ -8,7 +8,7 @@ import Layout from "../../components/layout";
 export default () => (
   <Layout
     title="Meet the Calton Consort"
-    heading="/static/backgrounds/about.jpg"
+    heading="/static/backgrounds/calton.jpg"
   >
     <Container>
       <Row>

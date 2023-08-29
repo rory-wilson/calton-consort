@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Layout from "../../components/layout";
 
 export default () => (
-  <Layout title="Get in touch" heading="/static/backgrounds/about.jpg">
+  <Layout title="Get in touch" heading="/static/backgrounds/about.jpg" showMailingList={false}>
     <Container>
       <Row>
         <Col md={9} sm={12}>
@@ -53,6 +53,18 @@ export default () => (
               </a>{" "}
               with subject "Unsubscribe from CC Email List".
             </p>
+          </section>
+          <section className="padded">
+          <h2>Music hire</h2>
+          <p>
+              We have an <a href='/static/library.pdf'>extensive music library</a> that is available for hire, which we welcome organisations to use and enjoy. 
+            </p>
+            <p>
+              Please email{" "}
+              <a href="mailto:caltonconsort@gmail.com">
+                caltonconsort@gmail.com
+              </a> to ask about borrowing a specific piece from our library.
+            </p>          
           </section>
         </Col>
       </Row>

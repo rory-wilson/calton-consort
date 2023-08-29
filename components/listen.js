@@ -16,9 +16,6 @@ export default () => {
   return (
     <Container>
       <Row>
-        <Col lg={6}>
-         
-        </Col>
         <Col>
           <h2>Listen to us</h2>
           <p className="lead">Listen to some live recordings at previous concerts</p>

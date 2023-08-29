@@ -23,9 +23,8 @@ export default ({ title, heading, children }) => {
         <Navbar.Collapse>
           <Nav>
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/concerts">Past concerts</Nav.Link>
             <Nav.Link href="/about">Meet us</Nav.Link>
-            <Nav.Link href="/hire">Music hire</Nav.Link>
+            <Nav.Link href="/concerts">Past concerts</Nav.Link>
             <Nav.Link href="/contact">Get in touch</Nav.Link>
             <Nav.Link href="https://app.choirmanager.com/en">Choir Area</Nav.Link>
           </Nav>
