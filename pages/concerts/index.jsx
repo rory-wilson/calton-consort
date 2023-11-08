@@ -15,6 +15,9 @@ export default () => (
         <Col md={10} sm={12}>
           <section className="padded">
             <h2 id="2023">2023</h2>
+            <Concert title="O Bone Jesu" imgUrl="/static/flyers/2023_11 o bone jesu.png" date="4 Nov">
+              Music by Robert Carver, James MacMillan, Henry Purcell and Caroline Shaw. Premiere of a work by Eleanor Haward.
+            </Concert>
             <Concert title="Sublime to Ridiculous" imgUrl="/static/flyers/2023_06_sublime_to_ridiculous.png" date="10 Jun">
               Music by Ola Gjeilo, Thea Musgrave, Eric Whitacre, Jaakko Mäntyjärvi, Jake Runestad, Knut Nystedt and György Ligeti.
             </Concert>
