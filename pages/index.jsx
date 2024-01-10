@@ -10,13 +10,13 @@ export default () => (
     <section
       id="top"
       className="hero position-relative"
-      style={{ backgroundImage: "url(/static/backgrounds/dec-23.jpg)",}}
+      style={{ backgroundImage: "url(/static/backgrounds/mar-24.jpg)",}}
     >
       <div className="text-right position-absolute hero-copy">
         <h1 className="display-5">
-          <Container><Row><Col>A Boy Was Born</Col></Row></Container>
+          <Container><Row><Col>Stabat Mater</Col></Row></Container>
         </h1>
-        <Container><Row><Col> <p className="lead">Featuring music by Benjamin Britten, Herbert Howells and more.</p></Col></Row></Container>
+        <Container><Row><Col> <p className="lead">Mealor's Stabat Mater and Handel's Dixit Dominus.</p></Col></Row></Container>
       </div>
     </section>
     <section id="concerts" className="padded">
@@ -37,8 +37,8 @@ export default () => (
           <Col lg={4} sm={12}>
             <h2>Upcoming Concerts</h2>
 
-            <Upcoming title="A Boy Was Born" date="Sat 9th Dec 2023 7.30pm">
-              A festive programme of music based around Benjamin Britten’s A Boy Was Born.
+            <Upcoming title="Stabat Mater" date="Sat 16th Mar 2024 7.30pm">
+              Paul Mealor's Stabat Mater and Handel's Dixit Dominus, with chamber orchestra.
             </Upcoming>
           </Col>
         </Row>

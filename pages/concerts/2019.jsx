@@ -26,7 +26,7 @@ export default () => (
               Madrigals, songs and sonnets by Shearing, Finzi, Delius, Panufnik, Quartel
             </Concert>
 
-            <Concert title="Penitence and Praise" imgUrl="/static/flyers/2019_03 penitence and praise.jpg" date="30 Nov">
+            <Concert title="Penitence and Praise" imgUrl="/static/flyers/2019_03 penitence and praise.jpg" date="30 Mar">
               A musical journey through Holy Week Music by Rheinberger, Beach, Gibbons, Bruckner, MacDowall, Mealor, Lotti, Taverner, Howells
             </Concert>
           </section>
