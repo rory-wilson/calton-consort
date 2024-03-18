@@ -26,12 +26,12 @@ html {
 .hero .hero-copy {
   width: 100%;
   background: transparent;
-  margin-top:200px;
+  margin-top:50px;
 }
 
 .hero h1, .hero p {
   color: white;
-  text-align: right;;
+  text-align: left;
 }
 
 .hero h1 {

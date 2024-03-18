@@ -10,13 +10,13 @@ export default () => (
     <section
       id="top"
       className="hero position-relative"
-      style={{ backgroundImage: "url(/static/backgrounds/mar-24.jpg)",}}
+      style={{ backgroundImage: "url(/static/backgrounds/jun_24.jpg)",}}
     >
       <div className="text-right position-absolute hero-copy">
         <h1 className="display-5">
-          <Container><Row><Col>Stabat Mater</Col></Row></Container>
+          <Container><Row><Col>Choral Pride</Col></Row></Container>
         </h1>
-        <Container><Row><Col> <p className="lead">Mealor's Stabat Mater and Handel's Dixit Dominus.</p></Col></Row></Container>
+        <Container><Row><Col> <p className="lead">A concert celebrating Pride Month featuring works by Kerry Andrew, <br/> Samuel Barber, Michael Tippett and Judith Weir.</p></Col></Row></Container>
       </div>
     </section>
     <section id="concerts" className="padded">
@@ -27,7 +27,7 @@ export default () => (
               <iframe
                 width="560"
                 height="349"
-                src="https://www.youtube.com/embed/jyHGRTVuXsM"
+                src="https://www.youtube.com/embed/OfNkyuDRElc"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -37,8 +37,8 @@ export default () => (
           <Col lg={4} sm={12}>
             <h2>Upcoming Concerts</h2>
 
-            <Upcoming title="Stabat Mater" date="Sat 16th Mar 2024 7.30pm">
-              Paul Mealor's Stabat Mater and Handel's Dixit Dominus, with chamber orchestra.
+            <Upcoming title="Choral Pride" date="Sat 15th June 2024 7.30pm">
+              A concert celebrating Pride Month featuring works by LGBTQ+ composers and allies.
             </Upcoming>
           </Col>
         </Row>
