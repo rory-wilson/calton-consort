@@ -27,7 +27,7 @@ export default () => (
               <iframe
                 width="560"
                 height="349"
-                src="https://www.youtube.com/embed/OfNkyuDRElc"
+                src="https://www.youtube.com/embed/dNp2Quhw_os"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
