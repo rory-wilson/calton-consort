@@ -16,7 +16,9 @@ export default () => (
         <h1 className="display-5">
           <Container><Row><Col>Choral Pride</Col></Row></Container>
         </h1>
-        <Container><Row><Col> <p className="lead">A concert celebrating Pride Month featuring works by Kerry Andrew, <br/> Samuel Barber, Michael Tippett and Judith Weir.</p></Col></Row></Container>
+        <Container><Row><Col> <p className="lead">A concert celebrating LGBTQ+ composers featuring works by Kerry Andrew, 
+          <br/> Samuel Barber, Michael Tippett and others.</p>
+          <p><a href="https://tickets.edfringe.com/whats-on/choral-pride" target="_blank" className="btn btn-primary btn-success btn-lg">Get tickets</a></p></Col></Row></Container>
       </div>
     </section>
     <section id="concerts" className="padded">
@@ -37,8 +39,9 @@ export default () => (
           <Col lg={4} sm={12}>
             <h2>Upcoming Concerts</h2>
 
-            <Upcoming title="Choral Pride" date="Sat 15th June 2024 7.30pm">
-              A concert celebrating Pride Month featuring works by LGBTQ+ composers and allies.
+            <Upcoming title="Choral Pride" date="Tue 13th August 2024 9pm">
+              A concert celebrating LGBTQ+ composers and allies for the Edinburgh Festival Fringe.<br/>
+              <a href="https://tickets.edfringe.com/whats-on/choral-pride">Get tickets here</a>
             </Upcoming>
           </Col>
         </Row>
