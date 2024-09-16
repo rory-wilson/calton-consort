@@ -10,15 +10,16 @@ export default () => (
     <section
       id="top"
       className="hero position-relative"
-      style={{ backgroundImage: "url(/static/backgrounds/jun_24.jpg)",}}
+      style={{ backgroundImage: "url(/static/backgrounds/nov-24.jpg)",}}
     >
       <div className="text-right position-absolute hero-copy">
         <h1 className="display-5">
-          <Container><Row><Col>Choral Pride</Col></Row></Container>
+          <Container><Row><Col>path of miracles</Col></Row></Container>
         </h1>
-        <Container><Row><Col> <p className="lead">A concert celebrating LGBTQ+ composers featuring works by Kerry Andrew, 
-          <br/> Samuel Barber, Michael Tippett and others.</p>
-          <p><a href="https://tickets.edfringe.com/whats-on/choral-pride" target="_blank" className="btn btn-primary btn-success btn-lg">Get tickets</a></p></Col></Row></Container>
+        <Container><Row><Col lg={8}> <p className="lead">Calton Consort present this beautiful, thrilling and energetic work in the atmospheric setting of St. Giles’ Cathedral in a new immersive production.
+          <br/>
+        </p>
+          </Col></Row></Container>
       </div>
     </section>
     <section id="concerts" className="padded">
@@ -39,9 +40,9 @@ export default () => (
           <Col lg={4} sm={12}>
             <h2>Upcoming Concerts</h2>
 
-            <Upcoming title="Choral Pride" date="Tue 13th August 2024 9pm">
-              A concert celebrating LGBTQ+ composers and allies for the Edinburgh Festival Fringe.<br/>
-              <a href="https://tickets.edfringe.com/whats-on/choral-pride">Get tickets here</a>
+            <Upcoming title="path of miracles" date="Sat 9th November 2024 7.30pm" where="St Giles' Cathedral, Edinburgh">
+            Joby Talbot’s Path of Miracles is a work of pilgrimage, describing four cardinal points on the famous Camino de Santiago, or the Way of St. James. 
+            Written for 17 voices, it is a vocal tour-de-force and one of the greatest choral works of the 21st century.
             </Upcoming>
           </Col>
         </Row>
