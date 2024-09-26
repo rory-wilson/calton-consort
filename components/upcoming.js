@@ -1,6 +1,6 @@
 import Card from "react-bootstrap/Card";
 
-export default ({ title, date, children, where = "Canongate Kirk Royal Mile Edinburgh" }) => (
+export default ({ title, date, children, where = "Canongate Kirk, Edinburgh", footer = "Tickets £15 (£12 conc.) on the door. Under 18s free!" }) => (
     <Card className="shadow-lg mb-2">
         <Card.Body>
         <Card.Title className="fs-2 mb-3">
@@ -15,7 +15,7 @@ export default ({ title, date, children, where = "Canongate Kirk Royal Mile Edin
         </Card.Text>
         </Card.Body>
         <Card.Footer>
-            Tickets £15 (£12 conc.) on the door. Under 18s free!
+            {footer}
         </Card.Footer>
     </Card>
 );

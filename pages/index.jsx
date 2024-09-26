@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Layout from "../components/layout";
 import Listen from "../components/listen";
 import Upcoming from '../components/upcoming';
+import Button from "react-bootstrap/Button";
 
 export default () => (
   <Layout title="Home">
@@ -16,9 +17,13 @@ export default () => (
         <h1 className="display-5">
           <Container><Row><Col>path of miracles</Col></Row></Container>
         </h1>
-        <Container><Row><Col lg={8}> <p className="lead">Calton Consort present this beautiful, thrilling and energetic work in the atmospheric setting of St. Giles’ Cathedral in a new immersive production.
-          <br/>
-        </p>
+        <Container><Row><Col lg={8}>
+          <p className="lead">Calton Consort present this beautiful, thrilling and energetic work in the atmospheric setting of St. Giles’ Cathedral in a new immersive production.</p>
+          <p>
+            <Button variant="success" size="lg" href="https://www.ticketsource.co.uk/calton-consort">
+            Buy tickets
+            </Button>
+         </p>
           </Col></Row></Container>
       </div>
     </section>
@@ -40,7 +45,10 @@ export default () => (
           <Col lg={4} sm={12}>
             <h2>Upcoming Concerts</h2>
 
-            <Upcoming title="path of miracles" date="Sat 9th November 2024 7.30pm" where="St Giles' Cathedral, Edinburgh">
+            <Upcoming title="path of miracles" date="Sat 9th November 2024 7.30pm" where="St Giles' Cathedral, Edinburgh"
+            footer={ <div className="d-grid gap-2"> Tickets £15 (£12 conc.). Under 18s free! <Button variant="success" href="https://www.ticketsource.co.uk/calton-consort">
+              Buy tickets
+              </Button></div>} >
             Joby Talbot’s Path of Miracles is a work of pilgrimage, describing four cardinal points on the famous Camino de Santiago, or the Way of St. James. 
             Written for 17 voices, it is a vocal tour-de-force and one of the greatest choral works of the 21st century.
             </Upcoming>
