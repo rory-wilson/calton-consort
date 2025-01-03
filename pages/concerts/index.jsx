@@ -15,6 +15,28 @@ export default () => (
         <Col md={10} sm={12}>
           <section className="padded">
             <h2 id="2024">2024</h2>
+            <Concert title="Advent 'o' Carol" imgUrl="/static/flyers/2024_12_advent_o_carol.jpg" date="14 Dec">
+Giovanni Palestrina	<i>Matin Responsory</i><br />
+Joanna L'Estrange	<i>Advent 'O' Carol</i><br />
+William Byrd <i>Rorate caeli desuper</i><br />
+Tomas Luis de Victoria		<i>Quem vidistis, pastores</i><br />
+William Byrd <i>Tollite portas</i><br />
+Michael Praetorius		<i>Es ist ein Ros entsprungen</i><br />
+Thomas Tallis <i>Videte miraculum</i><br />
+William Byrd <i>Ave Maria</i><br />
+Joanna Marsh <i>In Winter's House</i><br />
+Philip Stopford <i>Lully, Lulla, Lullay</i><br />
+Tomas Luis de Victoria	<i>	O Magnum Mysterium</i><br />
+Giovanni Palestrina		<i>Hodie Christus natus est</i><br />
+Orlande de Lassus		<i>Omnes de Saba venient</i><br />
+Jacobus Gallus <i>Resonet in laudibus</i><br />
+Traditional <i>In dulci jubilo</i><br />
+            </Concert>
+
+            <Concert title="Path of Miracles" imgUrl="/static/flyers/2024_11_path_of_miracles.jpg" date="9 Nov">
+              Joby Talbot<i> Path of Miracles</i>
+            </Concert>
+
             <Concert title="Choral pride" imgUrl="/static/flyers/2024_06_choral_pride.jpg" date="15 Jun">
 Kerry Andrew <i>All Things Are Quite Silent</i><br />
 Derri Joseph Lewis <i>Softly</i><br />

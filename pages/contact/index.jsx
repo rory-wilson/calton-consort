@@ -25,12 +25,10 @@ export default () => (
               Entry to the choir is by informal audition. Our members have a
               wide range of experience of singing in choirs and at least a
               reasonable level of sight-reading. Anyone interested in becoming a
-              member is welcome to join us for a rehearsal. To arrange this or
-              to audition please email{" "}
+              member is welcome to email us at{" "}
               <a href="mailto:caltonconsort@gmail.com">
                 caltonconsort@gmail.com
-              </a>
-              .
+              </a> to be added to our waiting list.
             </p>
           </section>
           <section className="padded">

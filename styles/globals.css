@@ -20,12 +20,11 @@ html {
 .hero {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 60%;
+  background-position-y: 80%;
   height: 500px;
 }
 .hero .hero-copy {
   width: 100%;
-  background: transparent;
   margin-top:50px;
 }
 
@@ -35,7 +34,7 @@ html {
 }
 
 .hero h1 {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   font-family: 'Palatino', 'Times New Roman', 'serif';
 }
 
