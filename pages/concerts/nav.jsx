@@ -3,6 +3,9 @@ import ListGroup from "react-bootstrap/ListGroup";
 export default () => (
 <ListGroup variant="flush" className='cc-list-group'>
     <ListGroup.Item action href="/concerts">
+        2025
+    </ListGroup.Item>
+    <ListGroup.Item action href="/concerts/2024">
         2024
     </ListGroup.Item>
     <ListGroup.Item action href="/concerts/2023">

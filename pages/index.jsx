@@ -11,16 +11,16 @@ export default () => (
     <section
       id="top"
       className="hero position-relative"
-      style={{ backgroundImage: "url(/static/backgrounds/mar-25.jpg)",}}
+      style={{ backgroundImage: "url(/static/backgrounds/mar-26.jpeg)",}}
     >
       <div className="text-right position-absolute hero-copy">
-        <h1 className="display-5 text-light">
-          <Container><Row><Col>Lamentations</Col></Row></Container>
+        <h1 className="display-5 text-white">
+          <Container><Row><Col>luminous night of the soul</Col></Row></Container>
         </h1>
         <Container><Row><Col lg={8}>
-          <p className="lead text-light">Tallis, Sheppard, Whitacre, Rebecca Dale.</p>
+        <p className="text-white">21st March 2026</p>
           <p>
-            <Button variant="success" size="lg" href="https://www.ticketsource.co.uk/calton-consort">
+            <Button variant="secondary" size="lg" href="https://www.ticketsource.co.uk/calton-consort">
             Buy tickets
             </Button>
          </p>
@@ -36,7 +36,7 @@ export default () => (
               <iframe
                 width="560"
                 height="349"
-                src="https://www.youtube.com/embed/RMNkhTEHrgA"
+                src="https://www.youtube.com/embed/UQ4-U0dV9zo"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -45,13 +45,17 @@ export default () => (
           </Col>
           <Col lg={4} sm={12}>
             <h2>Upcoming Concerts</h2>
-
-            <Upcoming title="Lamentations" date="Sat 22nd March 2024 7.30pm"
+            <Upcoming title="luminous night of the soul" date="Sat 21st March 2026 7.30pm"
             footer={ <div className="d-grid gap-2"> Tickets £15 (£12 conc.). Under 18s free! 
               <Button variant="success" href="https://www.ticketsource.co.uk/calton-consort">
               Buy tickets
               </Button></div>} >
-              A choral programme of ancient and contemporary perspectives on love, loss, and faith.
+              Voices and strings unite for a
+luminous Spring Equinox journey
+of poetry and song featuring music
+by Lucy Walker, Michael Higgins,
+Libby Croad, Ola Gjeilo and Anna
+Meredith
             </Upcoming>
           </Col>
         </Row>

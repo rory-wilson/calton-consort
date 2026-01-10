@@ -21,6 +21,7 @@ export default () => (
           </section>
           <section className="padded">
             <h2>Singing with us</h2>
+            <p>We are currently full in all voice parts.</p>
             <p>
               Entry to the choir is by informal audition. Our members have a
               wide range of experience of singing in choirs and at least a

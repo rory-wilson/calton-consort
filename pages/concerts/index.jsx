@@ -14,47 +14,39 @@ export default () => (
         </Col>
         <Col md={10} sm={12}>
           <section className="padded">
-            <h2 id="2024">2024</h2>
-            <Concert title="Advent 'o' Carol" imgUrl="/static/flyers/2024_12_advent_o_carol.jpg" date="14 Dec">
-Giovanni Palestrina	<i>Matin Responsory</i><br />
-Joanna L'Estrange	<i>Advent 'O' Carol</i><br />
-William Byrd <i>Rorate caeli desuper</i><br />
-Tomas Luis de Victoria		<i>Quem vidistis, pastores</i><br />
-William Byrd <i>Tollite portas</i><br />
-Michael Praetorius		<i>Es ist ein Ros entsprungen</i><br />
-Thomas Tallis <i>Videte miraculum</i><br />
-William Byrd <i>Ave Maria</i><br />
-Joanna Marsh <i>In Winter's House</i><br />
-Philip Stopford <i>Lully, Lulla, Lullay</i><br />
-Tomas Luis de Victoria	<i>	O Magnum Mysterium</i><br />
-Giovanni Palestrina		<i>Hodie Christus natus est</i><br />
-Orlande de Lassus		<i>Omnes de Saba venient</i><br />
-Jacobus Gallus <i>Resonet in laudibus</i><br />
-Traditional <i>In dulci jubilo</i><br />
+            <h2 id="2025">2025</h2>
+             <Concert title="Midwinter" imgUrl="/static/flyers/2025_12_midwinter.jpg" date="6 Dec">
+              Ēriks Ešenvalds		<i>Northern Lights</i><br/>
+              Morten Lauridsen	<i>Mid-Winter Songs</i><br/>
+              Arvo Pärt			<i>Magnificat</i><br/>
+              Eric Whitacre		<i>Lux Aurumque</i><br/>
+              Dan Abrahams		<i>Casa de Luz* (Commission)</i><br/>
+              Ola Gjeilo			<i>The Rose</i><br/>
+              Josef Rheinberger	<i>Abendlied</i><br/>
+              Cecilia McDowall		<i>Of a Rose</i><br/>
+
             </Concert>
 
-            <Concert title="Path of Miracles" imgUrl="/static/flyers/2024_11_path_of_miracles.jpg" date="9 Nov">
-              Joby Talbot<i> Path of Miracles</i>
+
+            <Concert title="Mozart Mass in C minor" imgUrl="/static/flyers/2025_11_mozart.jpg" date="15 Nov">
+              Mozart <i>Mass in C minor</i><br/>
             </Concert>
 
-            <Concert title="Choral pride" imgUrl="/static/flyers/2024_06_choral_pride.jpg" date="15 Jun">
-Kerry Andrew <i>All Things Are Quite Silent</i><br />
-Derri Joseph Lewis <i>Softly</i><br />
-Mari Esabel Valverde <i>Darest, O Soul</i><br />
-Samuel Barber	<i>Agnus Dei</i><br />
-Stuart Beatch <i>The Letter</i><br />
-Judith Weir <i>Love Bade Me Welcome</i><br />
-Ethel Smyth <i>Komm, Süsser Tod</i><br />
-Michael Tippett <i>Five Spirituals from ‘A Child Of Our Time’</i><br />
-Aaron Copeland <i>Help Us, Lord</i><br />
-Ian Sutherland <i>Orphic Murmurations (* Premiere)</i><br />
-Joanna Marsh <i>Thou Hast Searched Me and Known Me</i><br />
-Jake Runestad <i>Let My Love Be Heard</i><br />
+            <Concert title="Midsummer" imgUrl="/static/flyers/2025_06_midsummer.jpg" date="14 Jun">
+              Jonathan Dove <i>Passing of the year</i><br/>
+              James MacMillan <i>The Gallant Weaver</i><br/>
+              Joanna Marsh <i>Batter my heart</i><br/>
+              Eric Whitacre <i>3 Flower Songs</i><br/>
+              Eric Whitacre <i>All Seems Beautiful to Me</i><br/>
+              Frank Ticheli <i>Earth Song</i><br/>
             </Concert>
 
-            <Concert title="Stabat Mater" imgUrl="/static/flyers/2024_03_stabat_mater.jpg" date="16 Mar">
-              Paul Mealor<i> Stabat Mater</i>,
-              George Handel <i>Dixit Dominus</i>
+            <Concert title="Lamentations" imgUrl="/static/flyers/2025_03_lamentations.jpg" date="22 Mar">
+              John Sheppard	<i>In manus tuas</i><br />
+              Giacomo Carissimi	<i>Plorate Israel</i><br />
+              Thomas Tallis <i>Lamentations of Jeremiah I & II</i><br />
+              Eric Whitacre		<i>When David Heard</i><br />
+              Rebecca Dale <i>Stopping by Woods on a Snowy Evening (* Scottish Premiere)</i><br />
             </Concert>
           </section>
         </Col>

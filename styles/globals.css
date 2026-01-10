@@ -183,3 +183,11 @@ footer a.social {
     height: 30px;
     width: 30px;
 }
+
+.composition_text {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.composition_text p {
+  font-size: 0.9npmem;
+}
