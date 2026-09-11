@@ -241,7 +241,7 @@ a:hover {
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(39, 41, 44, 0.15) 0%,
+    rgba(39, 41, 44, 0.15) 75%,
     rgba(39, 41, 44, 0.78) 100%
   );
 }
