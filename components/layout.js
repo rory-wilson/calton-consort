@@ -105,7 +105,7 @@ export default function Layout({
           <Row className="gy-4">
             <Col md={4}>
               <img
-                src="/static/img/logo.png"
+                src="/static/img/logo-white.png"
                 alt="Calton Consort"
                 className="footer-logo"
               />

@@ -5,7 +5,7 @@ import Layout from "../../components/layout";
 
 export default function Hire() {
   return (
-    <Layout title="Music hire" heading="/static/backgrounds/about.jpg">
+    <Layout title="Music hire" heading="/static/backgrounds/music.jpg" showMailingList={false}>
       <Container>
         <Row>
           <Col md={8} sm={12}>
