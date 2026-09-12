@@ -122,10 +122,9 @@ a:hover {
   border-color: var(--cc-slate);
 }
 
-#navigation .navbar-toggler-icon {
-  filter: invert(1);
+#navigation:has(.navbar-collapse.show) {
+  background: #27292cfa !important;
 }
-
 /* ---------- Hero : Pattern A ---------- */
 
 .hero {
