@@ -28,7 +28,7 @@ export default function Contact() {
             <section className="padded pt-3">
               <p className="section-kicker">Membership</p>
               <h2>Singing with us</h2>
-              <p>We are currently full in all voice parts.</p>
+              <p>We are currently recruiting for a first tenor.</p>
               <p>
                 Entry to the choir is by informal audition. Our members have a
                 wide range of experience of singing in choirs and at least a

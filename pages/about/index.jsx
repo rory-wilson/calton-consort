@@ -53,7 +53,7 @@ export default function About() {
                     Calton Consort was founded in 2001 by 12 friends, who were
                     also singers, for a concert in aid of a church roof appeal.
                     The choir now comprises around 30 singers and typically
-                    performs three concerts a year including appearances at the
+                    performs five concerts a year including appearances at the
                     Edinburgh Festival Fringe.
                   </p>
                 </Col>
