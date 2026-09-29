@@ -46,6 +46,7 @@ export default function Layout({
               <Nav.Link href="/about">Meet us</Nav.Link>
               <Nav.Link href="/concerts">Concerts</Nav.Link>
               <Nav.Link href="/contact">Get in touch</Nav.Link>
+              <Nav.Link href="http://app.choirmanager.com">Choir area</Nav.Link>
               <Nav.Link
                 className="nav-cta"
                 href="https://www.ticketsource.co.uk/calton-consort"
