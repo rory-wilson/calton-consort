@@ -1,8 +1,9 @@
 import Image from "react-bootstrap/Image";
+import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
-export default function Concert({ title, date, children, imgUrl }) {
+export default function Concert({ title, date, children, imgUrl, ticketsUrl }) {
   return (
     <Row className="concert-row align-items-start">
       <Col sm={2} xs={12}>
@@ -11,6 +12,11 @@ export default function Concert({ title, date, children, imgUrl }) {
       <Col sm={imgUrl ? 7 : 10} xs={12}>
         <h3>{title}</h3>
         <p className="card-text mb-0">{children}</p>
+        {ticketsUrl && (
+          <Button variant="primary" href={ticketsUrl} className="mt-3">
+            Buy tickets
+          </Button>
+        )}
       </Col>
       {imgUrl && (
         <Col sm={3} xs={12} className="mt-3 mt-sm-0">

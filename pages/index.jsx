@@ -91,6 +91,9 @@ export default function Home({homepage} ) {
               >
                 {homepage.description}
               </Upcoming>
+              <Button variant="secondary" href="/concerts" className="mt-3 w-100">
+                See all upcoming concerts
+              </Button>
             </Col>
           </Row>
         </Container>

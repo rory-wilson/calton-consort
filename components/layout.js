@@ -142,7 +142,10 @@ export default function Layout({
                   <a href="/about">Meet the choir</a>
                 </li>
                 <li>
-                  <a href="/concerts">Past concerts</a>
+                  <a href="/concerts">Upcoming concerts</a>
+                </li>
+                <li>
+                  <a href="/concerts/2026">Past concerts</a>
                 </li>
                 <li>
                   <a href="/contact">Sing with us</a>

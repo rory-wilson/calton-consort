@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-import Nav from "./nav";
+import Nav from "../../components/concertsNav";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Layout from "../../components/layout";
@@ -10,7 +10,7 @@ export default () => (
     <Container>
       <Row>
         <Col md={{ order: 'last' }}>
-          <Nav />
+          <Nav active="2016" />
         </Col>
         <Col md={10} sm={12}>
           <section className="padded">

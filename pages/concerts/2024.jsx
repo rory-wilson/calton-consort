@@ -3,14 +3,14 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Layout from "../../components/layout";
 import Concert from "../../components/concert";
-import Nav from './nav';
+import Nav from '../../components/concertsNav';
 
 export default () => (
   <Layout title="Past Concerts" heading="/static/backgrounds/concerts.jpg">
     <Container>
       <Row>
         <Col md={{ order: 'last' }}>
-          <Nav />
+          <Nav active="2024" />
         </Col>
         <Col md={10} sm={12}>
           <section className="padded">
