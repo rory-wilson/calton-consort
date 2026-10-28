@@ -626,7 +626,8 @@ a:hover .overlay {
   border: 3px solid var(--cc-gold);
 }
 
-.page-intro {
+.page-intro,
+.lead-first > p:first-child {
   font-size: 1.12rem;
   color: var(--cc-stone);
 }
@@ -657,4 +658,8 @@ a:hover .overlay {
     margin: 0.5rem 0 0.75rem;
     display: inline-block;
   }
+}
+
+.side-panel-body > p:last-child {
+  margin-bottom: 0;
 }
