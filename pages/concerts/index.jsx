@@ -6,7 +6,7 @@ import Concert from "../../components/concert";
 import ConcertDescription from "../../components/concertDescription";
 import Nav from "../../components/concertsNav";
 import { getConcertsByStatus } from "../../lib/contentful";
-import { concertYears } from "../../lib/concerts";
+import { concertYears, concertWhen } from "../../lib/concerts";
 import moment from "moment";
 
 const TICKETS_URL = "https://www.ticketsource.co.uk/calton-consort";
@@ -19,15 +19,6 @@ export async function getStaticProps() {
       pastYears: concertYears(past),
     },
   };
-}
-
-// Dates are kept as entered in Contentful (no timezone conversion). Some only
-// have a day, others a start time too.
-function whenText(date) {
-  const when = moment.parseZone(date);
-  return date.length > 10
-    ? when.format("dddd D MMMM, h:mma")
-    : when.format("dddd D MMMM");
 }
 
 export default function UpcomingConcerts({ concerts, pastYears }) {
@@ -62,7 +53,7 @@ export default function UpcomingConcerts({ concerts, pastYears }) {
                         date={moment.parseZone(concert.date).format("D MMM")}
                         ticketsUrl={TICKETS_URL}
                       >
-                        {whenText(concert.date)}
+                        {concertWhen(concert.date)}
                         {concert.description && <br />}
                         <ConcertDescription markdown={concert.description} />
                       </Concert>

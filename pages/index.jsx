@@ -5,20 +5,23 @@ import Button from "react-bootstrap/Button";
 import Layout from "../components/layout";
 import Listen from "../components/listen";
 import Upcoming from "../components/upcoming";
-import { getHomepage } from "../lib/contentful";
+import ConcertDescription from "../components/concertDescription";
+import { getHomepage, getConcertsByStatus } from "../lib/contentful";
+import { concertWhen } from "../lib/concerts";
 import moment from "moment";
 
 export async function getStaticProps() {
   const homepage = await getHomepage();
-  console.log({homepage})
+  const { upcoming } = await getConcertsByStatus();
   return {
     props: {
-      homepage
+      homepage,
+      nextConcert: upcoming[0] ?? null,
     },
   }
 }
 
-export default function Home({homepage} ) {
+export default function Home({ homepage, nextConcert }) {
   return (
     <Layout title="Home" className="homepage">
       <section
@@ -74,23 +77,30 @@ export default function Home({homepage} ) {
             <Col lg={5}>
               <p className="section-kicker">Coming up</p>
               <h2 className="mb-3">Upcoming concerts</h2>
-              <Upcoming
-                title={homepage.heading}
-                date={moment(homepage.nextConcertDateTime).format('dddd DD MMM YYYY HH:mm')}
-                footer={
-                  <div className="d-grid gap-2">
-                    Tickets £15 (£12 conc.). Under 18s free.
-                    <Button
-                      variant="primary"
-                      href="https://www.ticketsource.co.uk/calton-consort"
-                    >
-                      Buy tickets
-                    </Button>
-                  </div>
-                }
-              >
-                {homepage.description}
-              </Upcoming>
+              {nextConcert ? (
+                <Upcoming
+                  title={nextConcert.title}
+                  date={concertWhen(nextConcert.date)}
+                  footer={
+                    <div className="d-grid gap-2">
+                      Tickets £15 (£12 conc.). Under 18s free.
+                      <Button
+                        variant="primary"
+                        href="https://www.ticketsource.co.uk/calton-consort"
+                      >
+                        Buy tickets
+                      </Button>
+                    </div>
+                  }
+                >
+                  <ConcertDescription markdown={nextConcert.description} />
+                </Upcoming>
+              ) : (
+                <p>
+                  Our next concert will be announced soon. Join the mailing
+                  list below to hear first.
+                </p>
+              )}
               <Button variant="secondary" href="/concerts" className="mt-3 w-100">
                 See all upcoming concerts
               </Button>
