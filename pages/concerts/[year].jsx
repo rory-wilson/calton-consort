@@ -50,6 +50,12 @@ export default function PastConcerts({ year, concerts, pastYears }) {
                   imgUrl={concert.imageUrl}
                   date={moment.parseZone(concert.date).format("D MMM")}
                 >
+                  {concert.venue && (
+                    <>
+                      {concert.venue}
+                      {concert.description && <br />}
+                    </>
+                  )}
                   <ConcertDescription markdown={concert.description} />
                 </Concert>
               ))}

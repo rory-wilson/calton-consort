@@ -6,7 +6,7 @@ import Concert from "../../components/concert";
 import ConcertDescription from "../../components/concertDescription";
 import Nav from "../../components/concertsNav";
 import { getConcertsByStatus } from "../../lib/contentful";
-import { concertYears, concertWhen } from "../../lib/concerts";
+import { concertYears, concertWhen, DEFAULT_VENUE } from "../../lib/concerts";
 import moment from "moment";
 
 const TICKETS_URL = "https://www.ticketsource.co.uk/calton-consort";
@@ -54,6 +54,8 @@ export default function UpcomingConcerts({ concerts, pastYears }) {
                         ticketsUrl={TICKETS_URL}
                       >
                         {concertWhen(concert.date)}
+                        <br />
+                        {concert.venue || DEFAULT_VENUE}
                         {concert.description && <br />}
                         <ConcertDescription markdown={concert.description} />
                       </Concert>

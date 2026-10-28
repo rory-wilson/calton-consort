@@ -1,10 +1,11 @@
 import Card from "react-bootstrap/Card";
+import { DEFAULT_VENUE } from "../lib/concerts";
 
 export default function Upcoming({
   title,
   date,
   children,
-  where = "Canongate Kirk, Edinburgh",
+  where = DEFAULT_VENUE,
   footer = "Tickets £15 (£12 conc.) on the door. Under 18s free!",
 }) {
   return (

@@ -81,6 +81,7 @@ export default function Home({ homepage, nextConcert }) {
                 <Upcoming
                   title={nextConcert.title}
                   date={concertWhen(nextConcert.date)}
+                  where={nextConcert.venue || undefined}
                   footer={
                     <div className="d-grid gap-2">
                       Tickets £15 (£12 conc.). Under 18s free.
