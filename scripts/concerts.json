@@ -1,0 +1,363 @@
+[
+  {
+    "title": "A Boy was Born",
+    "date": "2016-11-19",
+    "image": "static/flyers/2016_11 a boy was born.jpg",
+    "programme": [
+      "Jonathan Dove <i>Seek Him That Maketh the Seven Stars</i>",
+      "Judith Weir <i>Psalm 148</i>",
+      "Benjamin Britten <i>A Boy was Born</i>",
+      "Paul Spicer <i>Glory be to God for Dappled Things</i>"
+    ],
+    "source": "2016.jsx"
+  },
+  {
+    "title": "Lobet den Herrn",
+    "date": "2017-03-11",
+    "image": "static/flyers/2017_03 Lobet Den Herrn.jpg",
+    "programme": [
+      "Bach: Lobet den Herrn, alle Heiden Music by Arvo Pärt and Sven-David Sandström."
+    ],
+    "source": "2017.jsx"
+  },
+  {
+    "title": "Chansons des Fleurs",
+    "date": "2017-06-17",
+    "image": "static/flyers/2017_06 Chaonson des Fleurs.jpg",
+    "programme": [
+      "Lauridsen: Chansons des Roses, Britten: Five Flower Songs, Macmillan: So Deep"
+    ],
+    "source": "2017.jsx"
+  },
+  {
+    "title": "Cantate Domino",
+    "date": "2017-11-25",
+    "image": "static/flyers/2017_11 Cantate Domino.jpg",
+    "programme": [
+      "J. S. Bach: Singet den Herrn plus music by Praetorius, Monteverdi, Pachelbel, Tomkins, Sweelinck, Peebles."
+    ],
+    "source": "2017.jsx"
+  },
+  {
+    "title": "Speak to us of children",
+    "date": "2018-03-24",
+    "image": "static/flyers/2018_03 speak to us of children.jpeg",
+    "programme": [
+      "Music by Andrzej Panufnik, Roxanna Panufnik, Ronald Stevenson, Savourna Stevenson, Tom Cunningham"
+    ],
+    "source": "2018.jsx"
+  },
+  {
+    "title": "Northscapes",
+    "date": "2018-06-16",
+    "image": "static/flyers/2018_06 Northscapes poster.jpg",
+    "programme": [
+      "Music by Tavener, Sigurbjörnsson, MacMillan, Thorvaldsdottir, Vasks, Gjeilo"
+    ],
+    "source": "2018.jsx"
+  },
+  {
+    "title": "Into the Light",
+    "date": "2018-12-01",
+    "image": "static/flyers/2018_12 into the light.jpg",
+    "programme": [
+      "Music by Park, Rutter, Poulenc, Wood, Tallis, Rheinberger, Jackson, Whitacre"
+    ],
+    "source": "2018.jsx"
+  },
+  {
+    "title": "Penitence and Praise",
+    "date": "2019-03-30",
+    "image": "static/flyers/2019_03 penitence and praise.jpg",
+    "programme": [
+      "A musical journey through Holy Week Music by Rheinberger, Beach, Gibbons, Bruckner, MacDowall, Mealor, Lotti, Taverner, Howells"
+    ],
+    "source": "2019.jsx"
+  },
+  {
+    "title": "How can I Keep from Singing",
+    "date": "2019-06-15",
+    "image": null,
+    "programme": [
+      "Madrigals, songs and sonnets by Shearing, Finzi, Delius, Panufnik, Quartel"
+    ],
+    "source": "2019.jsx"
+  },
+  {
+    "title": "On St Andrew's Day",
+    "date": "2019-11-30",
+    "image": "static/flyers/2019_11 on st andrews day.jpg",
+    "programme": [
+      "Music by Walton, MacMillan, Boyle, Crecquillon, Hearne, Park, Leighton, Johnston"
+    ],
+    "source": "2019.jsx"
+  },
+  {
+    "title": "Rosa Sine Spina",
+    "date": "2021-12-11",
+    "image": "static/flyers/2021_11 Rosa Sine Spina.jpg",
+    "programme": [
+      "Carols at Canongate: Chilcott, Britten, Poulenc and various women composers. Conducted by Frikki Walker"
+    ],
+    "source": "2021.jsx"
+  },
+  {
+    "title": "Greater Love",
+    "date": "2022-04-02",
+    "image": "static/flyers/2022_04 Greater Love.jpg",
+    "programme": [
+      "Allegri, Tavener, Mealor, Tallis, MacMillan, Pärt and others. Conducted by Rory Wilson"
+    ],
+    "source": "2022.jsx"
+  },
+  {
+    "title": "Songs of the Baltic Sea",
+    "date": "2022-06-18",
+    "image": "static/flyers/2022_06 Songs of thhe Baltic Sea.jpg",
+    "programme": [
+      "Music by Miškinis, Dubra, Ešenvalds, Gòrecki. Conducted by Rory Wilson"
+    ],
+    "source": "2022.jsx"
+  },
+  {
+    "title": "Songs of the Baltic Sea at the Edinburgh Fringe",
+    "date": "2022-08-23",
+    "image": "static/flyers/2022_08 Fringe Songs of the baltic sea.jpg",
+    "programme": [
+      "Music by Miškinis, Dubra, Ešenvalds, Gòrecki. Conducted by Rory Wilson"
+    ],
+    "source": "2022.jsx"
+  },
+  {
+    "title": "Brahms German Requiem",
+    "date": "2022-11-12",
+    "image": "static/flyers/2022_11 Ein deutsches requiem.jpg",
+    "programme": [
+      "Collaboration with Scottish Chamber Choir and Meadows Orchestra. Conducted by Peter Evans"
+    ],
+    "source": "2022.jsx"
+  },
+  {
+    "title": "Venite Gaudete",
+    "date": "2022-12-03",
+    "image": "static/flyers/2022_12 Venite Gaudete.jpg",
+    "programme": [
+      "Music by Peacock, Sandstrom, Tavener, Byrd and Whitacre. Conducted by Rory Wilson"
+    ],
+    "source": "2022.jsx"
+  },
+  {
+    "title": "holst & howells",
+    "date": "2023-04-01",
+    "image": "static/flyers/2023_04 Holst & Howells.jpg",
+    "programme": [
+      "Herbert Howells Take him earth for cherishing, Requiem and Salve Regina. Imogen Holst Mass in A Minor."
+    ],
+    "source": "2023.jsx"
+  },
+  {
+    "title": "Sublime to Ridiculous",
+    "date": "2023-06-10",
+    "image": "static/flyers/2023_06_sublime_to_ridiculous.png",
+    "programme": [
+      "Music by Ola Gjeilo, Thea Musgrave, Eric Whitacre, Jaakko Mäntyjärvi, Jake Runestad, Knut Nystedt and György Ligeti."
+    ],
+    "source": "2023.jsx"
+  },
+  {
+    "title": "O Bone Jesu",
+    "date": "2023-11-04",
+    "image": "static/flyers/2023_11 o bone jesu.png",
+    "programme": [
+      "Hildegard of Bingen <i>O Pastor Animarum</i>",
+      "Robert Carver <i>O Bone Jesu</i>",
+      "Henry Purcell <i>Funeral Sentences</i>",
+      "Eleanor Haward <i>O Pastor Animarum (* Premiere)</i>",
+      "James MacMillan <i>O Bone Jesu</i>",
+      "Caroline Shaw <i>And the Swallow (psalm 84)</i>"
+    ],
+    "source": "2023.jsx"
+  },
+  {
+    "title": "A Boy Was Born",
+    "date": "2023-12-09",
+    "image": "static/flyers/2023_12_a_boy_was_born.png",
+    "programme": [
+      "Herbert Howells <i>Long, Long Ago</i>",
+      "Benjamin Britten <i>A Boy Was Born</i>",
+      "Kerensa Briggs <i>A Tender Shoot</i>",
+      "Tamsin Jones <i>Noel: Verbum Caro Factum Est</i>",
+      "Chris Hutchings <i>Balulalow</i>",
+      "Herbert Howells <i>Sing Lullaby</i>"
+    ],
+    "source": "2023.jsx"
+  },
+  {
+    "title": "Stabat Mater",
+    "date": "2024-03-16",
+    "image": "static/flyers/2024_03_stabat_mater.jpg",
+    "programme": [
+      "Paul Mealor <i>Stabat Mater</i>",
+      "George Handel <i>Dixit Dominus</i>"
+    ],
+    "source": "2024.jsx"
+  },
+  {
+    "title": "Choral pride",
+    "date": "2024-06-15",
+    "image": "static/flyers/2024_06_choral_pride.jpg",
+    "programme": [
+      "Kerry Andrew <i>All Things Are Quite Silent</i>",
+      "Derri Joseph Lewis <i>Softly</i>",
+      "Mari Esabel Valverde <i>Darest, O Soul</i>",
+      "Samuel Barber <i>Agnus Dei</i>",
+      "Stuart Beatch <i>The Letter</i>",
+      "Judith Weir <i>Love Bade Me Welcome</i>",
+      "Ethel Smyth <i>Komm, Süsser Tod</i>",
+      "Michael Tippett <i>Five Spirituals from ‘A Child Of Our Time’</i>",
+      "Aaron Copeland <i>Help Us, Lord</i>",
+      "Ian Sutherland <i>Orphic Murmurations (* Premiere)</i>",
+      "Joanna Marsh <i>Thou Hast Searched Me and Known Me</i>",
+      "Jake Runestad <i>Let My Love Be Heard</i>"
+    ],
+    "source": "2024.jsx"
+  },
+  {
+    "title": "Path of Miracles",
+    "date": "2024-11-09",
+    "image": "static/flyers/2024_11_path_of_miracles.jpg",
+    "programme": [
+      "Joby Talbot <i>Path of Miracles</i>"
+    ],
+    "source": "2024.jsx"
+  },
+  {
+    "title": "Advent 'o' Carol",
+    "date": "2024-12-14",
+    "image": "static/flyers/2024_12_advent_o_carol.jpg",
+    "programme": [
+      "Giovanni Palestrina <i>Matin Responsory</i>",
+      "Joanna L'Estrange <i>Advent 'O' Carol</i>",
+      "William Byrd <i>Rorate caeli desuper</i>",
+      "Tomas Luis de Victoria <i>Quem vidistis, pastores</i>",
+      "William Byrd <i>Tollite portas</i>",
+      "Michael Praetorius <i>Es ist ein Ros entsprungen</i>",
+      "Thomas Tallis <i>Videte miraculum</i>",
+      "William Byrd <i>Ave Maria</i>",
+      "Joanna Marsh <i>In Winter's House</i>",
+      "Philip Stopford <i>Lully, Lulla, Lullay</i>",
+      "Tomas Luis de Victoria <i>O Magnum Mysterium</i>",
+      "Giovanni Palestrina <i>Hodie Christus natus est</i>",
+      "Orlande de Lassus <i>Omnes de Saba venient</i>",
+      "Jacobus Gallus <i>Resonet in laudibus</i>",
+      "Traditional <i>In dulci jubilo</i>"
+    ],
+    "source": "2024.jsx"
+  },
+  {
+    "title": "Lamentations",
+    "date": "2025-03-22",
+    "image": "static/flyers/2025_03_lamentations.jpg",
+    "programme": [
+      "John Sheppard <i>In manus tuas</i>",
+      "Giacomo Carissimi <i>Plorate Israel</i>",
+      "Thomas Tallis <i>Lamentations of Jeremiah I & II</i>",
+      "Eric Whitacre <i>When David Heard</i>",
+      "Rebecca Dale <i>Stopping by Woods on a Snowy Evening (* Scottish Premiere)</i>"
+    ],
+    "source": "2025.jsx"
+  },
+  {
+    "title": "Midsummer",
+    "date": "2025-06-14",
+    "image": "static/flyers/2025_06_midsummer.jpg",
+    "programme": [
+      "Jonathan Dove <i>Passing of the year</i>",
+      "James MacMillan <i>The Gallant Weaver</i>",
+      "Joanna Marsh <i>Batter my heart</i>",
+      "Eric Whitacre <i>3 Flower Songs</i>",
+      "Eric Whitacre <i>All Seems Beautiful to Me</i>",
+      "Frank Ticheli <i>Earth Song</i>"
+    ],
+    "source": "2025.jsx"
+  },
+  {
+    "title": "Mozart Mass in C minor",
+    "date": "2025-11-15",
+    "image": "static/flyers/2025_11_mozart.jpg",
+    "programme": [
+      "Mozart <i>Mass in C minor</i>"
+    ],
+    "source": "2025.jsx"
+  },
+  {
+    "title": "Midwinter",
+    "date": "2025-12-06",
+    "image": "static/flyers/2025_12_midwinter.jpg",
+    "programme": [
+      "Ēriks Ešenvalds <i>Northern Lights</i>",
+      "Morten Lauridsen <i>Mid-Winter Songs</i>",
+      "Arvo Pärt <i>Magnificat</i>",
+      "Eric Whitacre <i>Lux Aurumque</i>",
+      "Dan Abrahams <i>Casa de Luz* (Commission)</i>",
+      "Ola Gjeilo <i>The Rose</i>",
+      "Josef Rheinberger <i>Abendlied</i>",
+      "Cecilia McDowall <i>Of a Rose</i>"
+    ],
+    "source": "2025.jsx"
+  },
+  {
+    "title": "Luminous night of the soul",
+    "date": "2026-03-21",
+    "image": "static/flyers/2026_03_luminous.jpg",
+    "programme": [
+      "Lucy Walker <i>Today</i>",
+      "Ola Gjeilo <i>Dark night of the soul</i>",
+      "Michael Higgins <i>Cloths of heaven</i>",
+      "Ana Meredith <i>Heal you</i>",
+      "Lucy Croad <i>The bronte suite</i>",
+      "Ola Gjeilo <i>Luminous night of the soul</i>",
+      "Jake Runstadt <i>Flower into kindness</i>"
+    ],
+    "source": "2026.jsx"
+  },
+  {
+    "title": "Concerto for Choir",
+    "date": "2026-06-13",
+    "image": "static/flyers/2026_06_choirconcerto.jpg",
+    "programme": [
+      "Galina Grigorjeva <i>On Leaving</i>",
+      "Anna Thorvaldsdóttir <i>Heyr þú oss himnum á</i>",
+      "Alfred Schnittke <i>Concerto for Choir</i>"
+    ],
+    "source": "2026.jsx"
+  },
+  {
+    "title": "Twenty-Five",
+    "date": "2026-11-07T17:00",
+    "image": "static/flyers/2026_11_twenty_five.jpg",
+    "programme": [],
+    "source": "index.jsx"
+  },
+  {
+    "title": "Carols by Candlelight",
+    "date": "2026-12-05T17:00",
+    "image": "static/flyers/2026_12_carols_candlelight.jpg",
+    "programme": [],
+    "source": "index.jsx"
+  },
+  {
+    "title": "Seven Last Words",
+    "date": "2027-03-20T19:30",
+    "image": "static/flyers/2027_03_seven_last_words.jpg",
+    "programme": [],
+    "source": "index.jsx"
+  },
+  {
+    "title": "Lumière et Ombre",
+    "date": "2027-06-12T19:30",
+    "image": "static/flyers/2027_06_lumiere.jpg",
+    "programme": [],
+    "source": "index.jsx"
+  }
+]

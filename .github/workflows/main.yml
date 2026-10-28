@@ -7,6 +7,9 @@ on:
   repository_dispatch:
     types: [contentful-publish]
   workflow_dispatch:
+  # Daily rebuild so concerts move from upcoming to past once they've happened.
+  schedule:
+    - cron: "0 5 * * *"
 
 jobs:
   deploy:
