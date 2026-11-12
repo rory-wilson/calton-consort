@@ -178,6 +178,12 @@ export default function Home({ homepage, nextConcert }) {
               >
                 YouTube
               </a>
+              <a
+                className="spotify"
+                href="https://open.spotify.com/user/31whvbvnkaxh2jbza3mulja7bmwm/playlists"
+              >
+                Spotify
+              </a>
             </Col>
           </Row>
         </Container>

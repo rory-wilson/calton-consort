@@ -501,6 +501,13 @@ section h3 {
 #social a.youtube:hover {
   background-image: url(/static/icons/youtube_over.svg);
 }
+#social a.spotify {
+  background-size: contain;
+  background-image: url(/static/icons/spotify.svg);
+}
+#social a.spotify:hover {
+  background-image: url(/static/icons/spotify_over.svg);
+}
 
 /* ---------- Mail / footer ---------- */
 
