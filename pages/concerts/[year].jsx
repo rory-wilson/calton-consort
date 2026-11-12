@@ -48,6 +48,8 @@ export default function PastConcerts({ year, concerts, pastYears }) {
                   key={concert.id}
                   title={concert.title}
                   imgUrl={concert.imageUrl}
+                  programmeUrl={concert.programmeUrl}
+                  spotifyUrl={concert.spotifyUrl}
                   date={moment.parseZone(concert.date).format("D MMM")}
                 >
                   {concert.venue && (
